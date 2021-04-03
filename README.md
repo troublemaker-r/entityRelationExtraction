@@ -1,4 +1,4 @@
-**:mag_right: 原项目地址**：https://github.com/yuanxiaosc/Entity-Relation-Extraction，由`Tensorflow`实现。
+**:mag_right: 原项目地址（`Tensorflow`实现）**：[https://github.com/yuanxiaosc/Entity-Relation-Extraction](https://github.com/yuanxiaosc/Entity-Relation-Extraction)
 
 ### :yum: 1. 项目简介
 
@@ -11,6 +11,7 @@
 #### 数据
 
 - 原始数据存放于raw_data文件夹下。
+  - 训练集：train_data.json，测试集：dev_data.json
 - 文本内容： "text": "内容简介《宜兴紫砂图典》由故宫出版社出版"
 - 三元组标注： "spo_list": [{"predicate": "出版社", "object_type": "出版社", "subject_type": "书籍", "object": "故宫出版社", "subject": "宜兴紫砂图典"}]}
   - 注明： 数据预处理脚本中的竞赛模式（Competition_Mode）设置为False时会将验证集作为测试集转化（便于查看效果），设置为True时会转化测试集数据。	
